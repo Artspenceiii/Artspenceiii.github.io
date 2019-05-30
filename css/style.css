@@ -1,0 +1,71 @@
+body {
+    background-color: grey;
+    color: grey;
+    text-align: center;
+    width: 960px;
+    margin: auto
+}
+
+header {
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
+
+nav { 
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
+
+section {
+    float: left;
+    background-color: white;
+    width: 510px;
+    padding: 84px 0;
+    margin-right: 10px;
+    
+  
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    background-color: white;
+    margin-left: 10px;
+    padding: 150px 0;
+    width: 430px;
+    
+}
+
+article {
+    margin: 30px 10px 0px 10px;
+    padding: 10px 15px;
+    background-color:grey;
+    color: black;
+}
+
+article > h2 {
+    background-color: white;
+}
+
+article > p {
+    background-color:white;
+    color: grey
+}
+
+.content {
+    margin: 10px 0;
+}
+
+.clear {
+    content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+    background-color: white;
+    padding: 35px 0;
+    margin: 10px 0;
+}
